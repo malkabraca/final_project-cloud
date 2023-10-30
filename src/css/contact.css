@@ -1,0 +1,24 @@
+.div_icon_contact {
+  display: flex;
+  justify-content: center;
+}
+.icon_contact {
+  position: relative;
+  color: rgb(252, 215, 94);
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  animation: arrowAnimation 1.5s infinite;
+}
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

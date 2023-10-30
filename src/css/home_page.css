@@ -1,0 +1,78 @@
+.divbuttonehome {
+  display: flex;
+  gap: 3em;
+}
+.titleHome {
+  margin: 50px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(252, 215, 94);
+  text-shadow: -3px -3px 4px rgba(253, 104, 119, 0.93);
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonhome {
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 18px;
+
+  margin-bottom: 50px;
+  padding: 6px 30px;
+  border-radius: 50px;
+  border: 5px solid rgb(252, 215, 94);
+  background-color: rgba(252, 215, 94, 0.37);
+}
+.phome {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: justify;
+}
+.carousel-image {
+  height: 20rem;
+  width: 100%;
+}
+.carousel {
+  height: 100%;
+  width: 20%;
+  object-fit: cover;
+  object-position: center;
+}
+.recommenders {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(252, 215, 94);
+  border: 3px solid black;
+}
+.div_recommenders {
+  height: 300px;
+}
+.imge_recommenders {
+  width: 80px;
+  height: 80px;
+  margin: -390px 0px 0px 120px;
+}
+.text_recommenders {
+  margin: 50px 0px 0px 60px;
+  font-family: "MV Boli";
+  color: rgba(253, 104, 119, 0.93);
+  width: 180px;
+}
+.icon_recommenders {
+  font-size: 3em;
+  margin: -290px 0 0 170px;
+  color: rgba(253, 104, 119, 0.93);
+  text-shadow: -3px -3px 4px rgba(253, 104, 119, 0.93);
+}
+.react-multiple-carousel__arrow--right {
+  display: none;
+}
+.react-multiple-carousel__arrow--left {
+  display: none;
+}
+.card {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 2%;
+  width: 19rem;
+}

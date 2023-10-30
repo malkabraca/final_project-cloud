@@ -1,0 +1,93 @@
+.navbar {
+   
+ background-color:rgba(252, 215, 94, 0.181); 
+}
+.active {
+  color: aliceblue;
+  /* background-color: #da6161;  */
+  background-color: rgb(252, 215, 94);
+  /*  text-shadow: -3px -3px 4px rgba(253, 104, 119, 0.93); */
+}
+
+.navbar .nav-link.active {
+  color: blue;
+}
+
+/* .profile-picture-container {
+  display: flex;
+  align-items: center;
+} */
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+
+
+.bg-light {
+  position: relative;
+  bottom: 0;
+}
+
+#nav {
+  color: rgb(252, 215, 94);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: rgba(252, 215, 94, 0.181);
+  height: 450px;
+  
+  flex-shrink: 0;
+}
+.name_footer {
+  color: rgb(252, 215, 94);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.text_footer {
+  color: rgb(252, 215, 94);
+  font-size: 1em;
+  margin-left: 20px;
+}
+.logo_footer {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/* .div_footer {
+  display: flex;
+  justify-content: center;
+}  */
+.icon_footer {
+  width: 20px;
+  height: 20px;
+ color: rgb(252, 215, 94);
+   transition: transform 0.3s ease-in-out;
+
+}
+.icon_footer:hover {
+  transform: scale(1.5);
+}
+.container_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content {
+  text-align: center;
+}
+.whatsapp_footer {
+  width: 30px;
+  height: 30px;
+  color: rgb(5, 122, 5);
+}
+
+

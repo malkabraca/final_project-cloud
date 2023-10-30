@@ -1,0 +1,57 @@
+.modal-header {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(252, 215, 94, 0.652);
+}
+.modal-body {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(252, 215, 94, 0.652);
+}
+.modal-footer {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(252, 215, 94, 0.652);
+}
+.modal-content {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgba(252, 215, 94, 0.899);
+}
+
+.imgSmile {
+  width: 250px;
+  height: 250px;
+}
+.divPopupSmile .modal-content {
+  background-color: #f8f863;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+.imgPopupSmile {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.divPopupSmile .animationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: imgPopupSmile 1s ease-in-out infinite alternate;
+}
+
+@keyframes imgPopupSmile {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.cardSpies {
+  border-radius: 50%;
+}
+
+.colinput {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(252, 215, 94, 0.37);
+}

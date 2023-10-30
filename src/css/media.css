@@ -1,0 +1,113 @@
+@media (max-width: 993px) {
+  .tablacrm {
+    font-size: 11px;
+  }
+  .buttons-wrappera {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 5%;
+    transform: translateY(-30%);
+  }
+}
+@media (max-width: 768px) {
+  .buttons-wrappera {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    transform: translateY(-35%);
+  }
+  .tablacrm {
+    font-size: 8px;
+  }
+  .title {
+    margin: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(252, 215, 94);
+    text-shadow: -3px -3px 4px rgba(253, 104, 119, 0.93);
+    font-size: 3em;
+  }
+  .buttonhome {
+    justify-content: center;
+  }
+  .phome {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media (max-width: 608px) {
+  .buttons-wrappera {
+  
+  position: relative;
+  margin-top: 0%;
+  margin-left: -60%;
+  transform: translateY(0%);
+}
+  
+  .medieCrm {
+    display: none;
+  }
+  .tablacrm {
+    font-size: 12px;
+  }
+  .alert {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 520px) {
+  .inputBookTable {
+    margin: 0 0 0 0;
+    width: 160px;
+    height: 40px;
+  }
+  .table-page .row {
+    width: 100%;
+    display: block;
+  }
+  .table-page .row > * {
+    align-items: center;
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .bookContainer {
+    margin: 0 0 0 10%;
+  }
+  #cardButten {
+    width: 260px;
+  }
+}
+@media (max-width: 430px) {
+  .product-item {
+    display: block;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .alertlink {
+    width: 8em;
+  }
+  .buttenAddMenu {
+    width: 2.64em;
+  }
+  .cardMenu {
+    width: 300px;
+  }
+}
+@media (max-width: 499px) {
+  .table-page .button_book {
+    width: 60%;
+    margin: 2em 20%;
+  }
+  .buttonList {
+    margin: 10px 0px 0px 10px;
+  }
+}
+@media (max-width: 375px) {
+  .table-page .button_book {
+    width: 80%;
+    margin: 2em 10%;
+  }
+}

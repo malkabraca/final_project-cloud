@@ -1,0 +1,18 @@
+/* .inputMyOrder{
+    color: aliceblue;
+     background-color: rgba(241, 208, 89, 0.411);
+  border-bottom: 3px solid black;
+  opacity: 0;
+} */.transparent-background {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.white-text {
+  color: white !important;
+}
+.textMyOrder{
+    color: rgb(252, 215, 94);
+    border-bottom: 3px solid rgb(252, 215, 94);
+    font-size: 20px;
+}

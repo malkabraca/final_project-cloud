@@ -1,0 +1,130 @@
+.buttons-wrappera {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 5%;
+  left: 80%;
+  transform: translateY(-30%);
+}
+.product-details {
+  margin-left: 10px;
+}
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.spiner {
+  width: 3rem;
+  height: 3rem;
+  margin: 2%;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonList {
+  margin: 50px 150px 0px 150px;
+  width: 50px;
+  height: 50px;
+}
+.buttenDelEdiMenu {
+  width: 3em;
+  height: 3em;
+  margin: 2%;
+  border-radius: 50%;
+  display: flexbox;
+}
+.buttenAddMenu {
+  /* width: 3.3em;
+  height: 2em;
+  margin-bottom: 1%;
+  display: flexbox;
+  border-radius: 0px; */
+  width: 3em;
+  height: 2em;
+  margin: 3px 2.5px;
+}
+.alertlink {
+  background-color: rgba(252, 215, 94, 0);
+  width: 10em;
+  color: aliceblue;
+}
+.filled {
+  background-color: rgba(252, 215, 94, 1);
+  color: black;
+}
+.alert {
+  margin: 1%;
+  color: aliceblue;
+  font-size: 14px;
+  background-color: rgba(252, 215, 94, 0);
+  width: 95%;
+  padding-bottom: 2%;
+}
+    .cardMenu {
+  width: 350px;
+  height: 400px;
+  background-color: rgba(241, 208, 89, 0.638);
+  border: 3px solid black;
+ display: flex; 
+}    
+.button_admin_menu {
+  justify-content: center;
+}
+.imagealert {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 1%;
+}
+.imagealert:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  border: 5px solid rgb(252, 215, 94);
+}.card_title {
+  text-align: center;
+}
+.card_text {
+  text-align: center;
+}
+.card_price {
+  text-align: center;
+}
+.cardButten {
+  margin-left:35px;
+}
+#cardButten {
+  width: 300px;
+}
+.radioMenu {
+  color: aliceblue;
+}
+ .product-details {
+    width: 200px;
+  }
+  .nav_catgory{
+    justify-content: center;
+   } 
+  .nav_item_catgory a{color:  rgb(252, 215, 94);
+    font-weight: 600;
+  }
+   .nav_item_catgory a:hover
+   {color: aliceblue;
+  }
