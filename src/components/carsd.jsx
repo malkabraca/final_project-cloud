@@ -7,7 +7,7 @@ const CardFood =()=> {
       <Row className="justify-content-center">
         <h3 className="subtitle">Our Proffesional Chefs</h3>
         <Card className="card">
-          <Card.Img variant="top" src="../image/chefs-1.jpg" />
+          <Card.Img variant="top" src="../Image/chefs-1.jpg" />
           <Card.Body>
             <Card.Title>Walter White </Card.Title>
             <Card.Text>
@@ -16,7 +16,7 @@ const CardFood =()=> {
           </Card.Body>
         </Card>
         <Card className="card">
-          <Card.Img variant="top" src="../image/chefs-2.jpg" />
+          <Card.Img variant="top" src="../Image/chefs-2.jpg" />
           <Card.Body>
             <Card.Title>Sarah Jhonson</Card.Title>
             <Card.Text>
@@ -25,7 +25,7 @@ const CardFood =()=> {
           </Card.Body>
         </Card>
         <Card className="card">
-          <Card.Img variant="top" src="../image/chefs-3.jpg" />
+          <Card.Img variant="top" src="../Image/chefs-3.jpg" />
           <Card.Body>
             <Card.Title>William Anderson</Card.Title>
             <Card.Text>
