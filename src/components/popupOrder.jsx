@@ -129,7 +129,7 @@ const PopupExample = () => {
             onClick={handleClose}
             className="colinput"
           >
-            Cansel
+            Cancel
           </Button>
         </Modal.Footer>
       </Modal>
